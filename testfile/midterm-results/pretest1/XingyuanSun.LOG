@@ -1,0 +1,367 @@
+now /home/testmachine/compiler2016-testcases/compile_error/arrop-1-5100379071-puyouer.mx
+ArrayType needed here!
+At line 3, column 12.
+ArrayAccess
+	Identifier
+		Symbol : a
+	IntConst : 1
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/asiop-1-5100379071-puyouer.mx
+Lvalue needed here!
+At line 2, column 4.
+BinaryExpr
+	StringConst : "a"
+	ASSIGN
+	StringConst : "b"
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/asiop-2-5100379071-puyouer.mx
+Lvalue needed here!
+At line 4, column 8.
+BinaryExpr
+	IntConst : 0
+	ASSIGN
+	Identifier
+		Symbol : b
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/asiop-3-5120309049-liaochao.mx
+Lvalue needed here!
+At line 2, column 4.
+BinaryExpr
+	BoolConst : true
+	ASSIGN
+	BoolConst : false
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/asiop-4-5120309049-liaochao.mx
+Type does not match here!
+At line 2, column 4.
+BinaryExpr
+	NullConst
+	ASSIGN
+	IntConst : 2016
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/asiop-5-5100379071-puyouer.mx
+Lvalue needed here!
+At line 6, column 4.
+BinaryExpr
+	FunctionCall
+		Identifier
+			Symbol : f
+	ASSIGN
+	CreationExpr
+		ArrayType
+			IntType
+			IntConst : 16
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/asiop-6-5100379071-puyouer.mx
+Type does not match here!
+At line 10, column 4.
+BinaryExpr
+	Identifier
+		Symbol : t
+	ASSIGN
+	Identifier
+		Symbol : x
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/asiop-7-5120309049-liaochao.mx
+Initializer type unexpected!
+At line 2, column 4.
+Var
+	StringType
+	Symbol : str
+	NullConst
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/biop-1-5100379071-puyouer.mx
+IntType expected here!
+At line 9, column 8.
+BinaryExpr
+	Identifier
+		Symbol : a
+	ADD
+	Identifier
+		Symbol : b
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/bitop-1-5120309049-liaochao.mx
+IntType expected here!
+At line 4, column 12.
+BinaryExpr
+	Identifier
+		Symbol : str
+	SHR
+	IntConst : 3
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/boop-1-5120309049-liaochao.mx
+BoolType expected here!
+At line 3, column 8.
+BinaryExpr
+	StringConst : "20"
+	LOGICAL_AND
+	StringConst : "16"
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/class-1-5100379071-puyouer.mx
+Varible name already used!
+At line 3, column 4.
+Var
+	BoolType
+	Symbol : f
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/class-2-5120309049-liaochao.mx
+Class name already used!
+At line 5, column 0.
+ClassDecl
+	Symbol : A
+	VarDeclList
+		Var
+			IntType
+			Symbol : x
+		VarDeclList
+			Var
+				IntType
+				Symbol : y
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/ctrflow-1-5100379071-puyouer.mx
+BoolType expected here!
+At line 2, column 11.
+IntConst : 1
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/ctrflow-2-5120309049-liaochao.mx
+No loop here!
+At line 2, column 4.
+ContinueStmt
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/ctrflow-3-5100379071-puyouer.mx
+BoolType expected here!
+At line 5, column 8.
+Identifier
+	Symbol : a
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/ctrflow-4-5120309049-liaochao.mx
+BoolType expected here!
+At line 4, column 11.
+Identifier
+	Symbol : institute
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/ctrflow-5-5120309049-liaochao.mx
+BoolType expected here!
+At line 4, column 11.
+Identifier
+	Symbol : institute
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/fldop-1-5120309049-liaochao.mx
+Attribute not found!
+At line 7, column 4.
+ClassAccess
+	Identifier
+		Symbol : chairman
+	Symbol : naive
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/func-1-5100379071-puyouer.mx
+Type undefined!
+At line 7, column 0.
+ClassType
+	Symbol : B
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/func-2-5120309049-liaochao.mx
+Type undefined!
+At line 1, column 6.
+ClassType
+	Symbol : A
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/func-3-5100379071-puyouer.mx
+Function needed here!
+At line 14, column 4.
+FunctionCall
+	Identifier
+		Symbol : a
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/func-4-5100379071-puyouer.mx
+Function arguments do not match!
+At line 7, column 8.
+FunctionCall
+	Identifier
+		Symbol : f
+	ExprList
+		IntConst : 1
+		ExprList
+			IntConst : 2
+			ExprList
+				IntConst : 3
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/func-5-5100309127-hetianxing.mx
+Function arguments do not match!
+At line 12, column 4.
+FunctionCall
+	Identifier
+		Symbol : f
+	ExprList
+		Identifier
+			Symbol : b
+		ExprList
+			Identifier
+				Symbol : sa
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/func-6-5130309059-lijiajun.mx
+Main must not have any parameter!
+At line 1, column 0.
+FunctionDecl
+	IntType
+	Symbol : main
+VarDeclList
+	Var
+		IntType
+		Symbol : main
+	CompoundStmt
+		StmtList
+			FunctionCall
+				Identifier
+					Symbol : main
+				ExprList
+					IntConst : 7
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/func-7-5140309552-wancheng.mx
+Main must return a IntType!
+At line 1, column 0.
+FunctionDecl
+	VoidType
+	Symbol : main
+	CompoundStmt
+		StmtList
+			EmptyExpr
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/incop-1-5120309049-liaochao.mx
+IntType needed here!
+At line 4, column 4.
+PostSelfIncrement
+	Identifier
+		Symbol : str
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/relop-1-5120309049-liaochao.mx
+Type does not match here!
+At line 14, column 8.
+BinaryExpr
+	Identifier
+		Symbol : a
+	EQ
+	Identifier
+		Symbol : b
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/relop-2-5120309049-liaochao.mx
+Type does not match here!
+At line 14, column 8.
+BinaryExpr
+	Identifier
+		Symbol : a
+	NE
+	Identifier
+		Symbol : b
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/scope-1-5140519064-youyurong.mx
+Undefined identifier here!
+At line 3, column 8.
+Identifier
+	Symbol : a
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/scope-2-5140519064-youyurong.mx
+Undefined identifier here!
+At line 3, column 8.
+Identifier
+	Symbol : c
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/var-1-5110379024-wuhang.mx
+line 2:4 missing '}' at 'void'
+line 2:10 mismatched input ';' expecting '('
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/var-2-5100309127-hetianxing.mx
+Varible name already used!
+At line 5, column 0.
+Var
+	IntType
+	Symbol : c
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/var-3-5120309049-liaochao.mx
+Type undefined!
+At line 3, column 4.
+ClassType
+	Symbol : A
+
+Yes
+now /home/testmachine/compiler2016-testcases/compile_error/var-4-5140309552-wancheng.mx
+Varible name already used!
+At line 2, column 1.
+Var
+	IntType
+	Symbol : x
+	IntConst : 0
+
+Yes
+now /home/testmachine/compiler2016-testcases/passed/basicopt1-5100309127-hetianxing.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/builtin-5140519064-youyurong.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/bulgarian-5110379024-wuhang.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/expr-5110309085-jintianxing.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/hanoi-5100379110-daibo.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/hashmap-5100309127-hetianxing.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/heapsort-5100379110-daibo.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/horse2-5100309153-yanghuan.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/horse3-5100309153-yanghuan.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/horse-5100309153-yanghuan.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/lvalue2-5110379024-wuhang.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/magic-5100309153-yanghuan.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/maxflow-5100379110-daibo.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/prime-5100309153-yanghuan.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/qsort-5100379110-daibo.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/queens-5100379110-daibo.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/spill2-5100379110-daibo.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/superloop-5090379042-jiaxiao.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/tak-5090379042-jiaxiao.mx
+Yes
+now /home/testmachine/compiler2016-testcases/passed/twinprime-5090379042-jiaxiao.mx
+Yes
